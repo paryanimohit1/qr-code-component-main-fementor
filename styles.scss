@@ -23,12 +23,12 @@ body {
         display: flex;
         flex-direction: column;
         text-align: center;
-        max-width: 320px;
+        max-width: 20rem;
         box-shadow: 15px 30px 50px hsl(220deg 15% 80%);
 
         .qr-code {
             border-radius: 0.625rem;
-            max-width: 288px;
+            max-width: 18rem;
             margin-bottom: 1.25rem;
         }
 
@@ -39,7 +39,7 @@ body {
             margin-bottom: 0.714em;
             padding-inline: 0.48em;
         }
-        
+
         .description {
             font-weight: 400;
             font-size: 15px;
