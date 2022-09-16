@@ -14,12 +14,12 @@ body {
     align-items: center;
     justify-content: center;
     background-color: $light-gray;
-    height: 100vh;
+    min-height: 100vh;
 
     .main-container {
         background-color: $white;
-        border-radius: 20px;
-        padding: 16px;
+        border-radius: 1.25rem;
+        padding: 1rem;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -27,25 +27,25 @@ body {
         box-shadow: 15px 30px 50px hsl(220deg 15% 80%);
 
         .qr-code {
-            border-radius: 10px;
-            width: 288px;
-            margin-bottom: 20px;
+            border-radius: 0.625rem;
+            max-width: 288px;
+            margin-bottom: 1.25rem;
         }
 
         .title {
             font-weight: 700;
             color: $dark-blue;
             font-size: 21px;
-            margin-bottom: 15px;
-            padding-inline: 10px;
+            margin-bottom: 0.714em;
+            padding-inline: 0.48em;
         }
         
         .description {
             font-weight: 400;
             font-size: 15px;
             color: $grayish-blue;
-            margin-bottom: 26px;
-            padding-inline: 15px;
+            margin-bottom: 1.73em;
+            padding-inline: 1em;
         }
     }
 }

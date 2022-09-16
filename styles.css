@@ -9,12 +9,12 @@ body {
   align-items: center;
   justify-content: center;
   background-color: hsl(212deg, 45%, 89%);
-  height: 100vh;
+  min-height: 100vh;
 }
 body .main-container {
   background-color: hsl(0deg, 0%, 100%);
-  border-radius: 20px;
-  padding: 16px;
+  border-radius: 1.25rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -22,21 +22,21 @@ body .main-container {
   box-shadow: 15px 30px 50px hsl(220deg, 15%, 80%);
 }
 body .main-container .qr-code {
-  border-radius: 10px;
-  width: 288px;
-  margin-bottom: 20px;
+  border-radius: 0.625rem;
+  max-width: 288px;
+  margin-bottom: 1.25rem;
 }
 body .main-container .title {
   font-weight: 700;
   color: hsl(218deg, 44%, 22%);
   font-size: 21px;
-  margin-bottom: 15px;
-  padding-inline: 10px;
+  margin-bottom: 0.714em;
+  padding-inline: 0.48em;
 }
 body .main-container .description {
   font-weight: 400;
   font-size: 15px;
   color: hsl(220deg, 15%, 55%);
-  margin-bottom: 26px;
-  padding-inline: 15px;
+  margin-bottom: 1.73em;
+  padding-inline: 1em;
 }/*# sourceMappingURL=styles.css.map */
